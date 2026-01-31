@@ -1,1 +1,7 @@
-<Solution />
+<Solution>
+  <Project Path="API.IntegrationTests/API.IntegrationTests.csproj" />
+  <Project Path="API.Tests/API.Tests.csproj" />
+  <Project Path="API/API.csproj" />
+  <Project Path="Synchronization/Synchronization.csproj" />
+  <Project Path="UI/UI.csproj" />
+</Solution>
