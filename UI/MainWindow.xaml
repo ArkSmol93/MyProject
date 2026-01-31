@@ -1,0 +1,13 @@
+﻿<Window x:Class="UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Zasoby" Height="450" Width="800">
+    <Grid Margin="10">
+        <StackPanel>
+            <Button Content="Odśwież dane" Click="RefreshButton_Click" Width="150" Margin="0,0,0,10"/>
+            <ListBox Name="ResourcesListBox" DisplayMemberPath="Name" Height="300"/>
+            <TextBlock Name="MessageTextBlock" Foreground="Red" Margin="0,10,0,0"/>
+            <TextBox x:Name="MyTextBox" Width="200" Height="25" />
+        </StackPanel>
+    </Grid>
+</Window>
