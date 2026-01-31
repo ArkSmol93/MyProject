@@ -18,10 +18,6 @@ Projekt to aplikacja WPF + ASP.NET Core API z synchronizacją danych w czasie rz
 1. Otwórz projekt **API** w Visual Studio  
 2. Skonfiguruj `appsettings.json` z połączeniem do bazy danych:
 
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=MyProjectDb;Trusted_Connection=True;"
-}
 Zbuduj projekt i uruchom go (F5 lub Ctrl+F5)
 
 Sprawdź działanie API poprzez Swagger:
